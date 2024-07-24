@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <title>Dictionary web app</title>
+    </head>
+    <body data-theme="light">
+        <div class="content">
+            <header>
+                <nav class="navbar">
+                    <img
+                        src="/starter-code/assets/images/logo.svg"
+                        id="logo"
+                        alt="logo"
+                    />
+                    <div class="navbar__buttons">
+                        <div class="dropdown_menu">
+                            <div class="dropdown_menu_btn">
+                                <span>Sans Serif</span>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="14"
+                                    height="8"
+                                    viewBox="0 0 14 8"
+                                >
+                                    <path
+                                        fill="none"
+                                        stroke="#A445ED"
+                                        stroke-width="1.5"
+                                        d="m1 1 6 6 6-6"
+                                    />
+                                </svg>
+                            </div>
+                            <ul class="options">
+                                <li class="active" id="sans_serif">
+                                    Sans Serif
+                                </li>
+                                <li id="serif">Serif</li>
+                                <li id="mono">Mono</li>
+                            </ul>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="darkmode_box">
+                            <label class="switch" checked="off">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="22"
+                                height="22"
+                                viewBox="0 0 22 22"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="#838383"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="1.5"
+                                    d="M1 10.449a10.544 10.544 0 0 0 19.993 4.686C11.544 15.135 6.858 10.448 6.858 1A10.545 10.545 0 0 0 1 10.449Z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class="input">
+                    <input type="text" placeholder="Search for any word" spellcheck="false" />
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                    >
+                        <path
+                            fill="none"
+                            stroke="#A445ED"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="m12.663 12.663 3.887 3.887M1 7.664a6.665 6.665 0 1 0 13.33 0 6.665 6.665 0 0 0-13.33 0Z"
+                        />
+                    </svg>
+                </div>
+                <div class="word">
+                    <!-- <div class="word__title">
+                        <div>
+                            <h1>keyboard</h1>
+                            <span>/ˈkiːbɔːd/</span>
+                        </div>
+                        <button class="play__btn">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="75"
+                                height="75"
+                                viewBox="0 0 75 75"
+                            >
+                                <g fill="#A445ED" fill-rule="evenodd">
+                                    <circle
+                                        cx="37.5"
+                                        cy="37.5"
+                                        r="37.5"
+                                        opacity=".25"
+                                    />
+                                    <path d="M29 27v21l21-10.5z" />
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="word__partOfSpeech">
+                        <div class="word__partOfSpeech_title">
+                            noun
+                            <div></div>
+                        </div>
+                        <div class="meaning">
+                            <ul>
+                                <span>Meaning</span>
+                                <li>
+                                    (etc.) A set of keys used to operate a
+                                    typewriter, computer etc.
+                                </li>
+                                <li>
+                                    A component of many instruments including
+                                    the piano, organ, and harpsichord consisting
+                                    of usually black and white keys that cause
+                                    different tones to be produced when struck.
+                                </li>
+                                <li>
+                                    A device with keys of a musical keyboard,
+                                    used to control electronic sound-producing
+                                    devices which may be built into or separate
+                                    from the keyboard device.
+                                </li>
+                            </ul>
+                            <div>
+                                <h4>Synonyms</h4>
+                                <span>electronic keyboard</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="word__partOfSpeech">
+                        <div class="word__partOfSpeech_title">
+                            verb
+                            <div></div>
+                        </div>
+                        <div class="meaning">
+                            <ul>
+                                <span>Meaning</span>
+                                <li>
+                                    To type on a computer keyboard.
+                                </li>
+                                <p class="definition">“Keyboarding is the part of this job I hate the most.”</p>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
