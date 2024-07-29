@@ -1,5 +1,6 @@
 const searchInput = document.querySelector("main > div > input");
 const body = document.querySelector("body")
+// const fontFamily = localStorage.getItem("fontFamily")
 const dropdownMenuBtn = document.querySelector(".dropdown_menu_btn");
 const dropdownOptions = document.querySelector(".options");
 const optionItems = dropdownOptions.querySelectorAll("li");
